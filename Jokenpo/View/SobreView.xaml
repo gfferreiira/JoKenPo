@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jokenpo.View.SobreView"
+             Title="SobreView">
+    <VerticalStackLayout>
+        <Label 
+            Text="Sobre"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Large"/>
+        <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,  sunt in culpa qui officia deserunt mollit anim id est laborum." 
+             FontSize="20" VerticalOptions="Center" HorizontalOptions="Center" />
+
+        <Label Text="Feito Por:" FontSize="Medium" Margin="100,200,0,0" />
+
+        <Label Text="github.com/gfferreiira" FontSize="25"  Margin="100,0,0,0"  />
+
+        <Label Text="github.com/wellingtonalencarr" FontSize="25"  Margin="100,0,0,0" />
+    </VerticalStackLayout>
+</ContentPage>

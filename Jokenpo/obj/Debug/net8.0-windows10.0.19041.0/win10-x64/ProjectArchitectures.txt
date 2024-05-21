@@ -1,0 +1,1 @@
+D:\WellGui\PM\Jokenpo\Jokenpo\Jokenpo.csproj;x64

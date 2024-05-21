@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jokenpo.View.PedraPapelTesouraView"
+             Title="PedraPapelTesouraView">
+    <VerticalStackLayout Padding="30,0" Spacing="25">
+        <Label 
+            Text="Jo Ken Po"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Large"/>
+
+        <Label 
+            Text="Nome"
+            FontSize="Medium"/>
+
+        <Entry  ClearButtonVisibility="WhileEditing" VerticalOptions="CenterAndExpand"
+               FontSize="Medium" Text="{Binding Nome}" />
+
+        <Picker Title="Escolha" FontSize="Medium"  HorizontalOptions="CenterAndExpand" WidthRequest="500" SelectedItem="{Binding Escolha}">
+            <Picker.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Pedra</x:String>
+                <x:String>Papel</x:String>
+                <x:String>Tesoura</x:String>
+            </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <Button
+             Text="Jogar"
+              HorizontalOptions="CenterAndExpand"
+              x:Name="PlayBtn"  Margin="0,100,0,0" WidthRequest="650" Command="{Binding PlayCommand}" />
+
+
+        <Label Text="Resultado"  Margin="250,0,0,0"
+              FontSize="30" />
+        
+
+    </VerticalStackLayout>
+</ContentPage>
