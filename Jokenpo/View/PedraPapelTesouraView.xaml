@@ -12,11 +12,11 @@
 
         <Label 
             Text="Nome"
-            FontSize="Medium"/>
+            FontSize="Medium"  VerticalOptions="CenterAndExpand" WidthRequest="500"/>
 
-        <Entry  ClearButtonVisibility="WhileEditing" VerticalOptions="CenterAndExpand"
-               FontSize="Medium" Text="{Binding Nome}" />
-
+        <Entry  ClearButtonVisibility="WhileEditing" VerticalOptions="CenterAndExpand" WidthRequest="500"
+               FontSize="Medium" Placeholder="Nome do Jogador" Text="{Binding Nome}" />
+        <Image Source="{Binding PlayerImage}" HeightRequest="50"/>
         <Picker Title="Escolha" FontSize="Medium"  HorizontalOptions="CenterAndExpand" WidthRequest="500" SelectedItem="{Binding Escolha}">
             <Picker.ItemsSource>
             <x:Array Type="{x:Type x:String}">
@@ -32,9 +32,15 @@
               x:Name="PlayBtn"  Margin="0,100,0,0" WidthRequest="650" Command="{Binding PlayCommand}" />
 
 
-        <Label Text="Resultado"  Margin="250,0,0,0"
+        <Label Text="{Binding Result}"  Margin="250,0,0,0"
               FontSize="30" />
-        
+        <Image Source="{Binding EnemyImage}" HeightRequest="50"/>
+        <HorizontalStackLayout>
+            <Label Text="Pontuação do jogador: "/>
+        <Label Text="{Binding Pontuacao}"/>
+        </HorizontalStackLayout>
+
+
 
     </VerticalStackLayout>
 </ContentPage>

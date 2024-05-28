@@ -17,13 +17,12 @@ namespace Jokenpo.Model
 
         public int Pontuacao { get; set; }
 
-        public int PontuacaoMaquina {  get; set; }
+        
 
-        public Jogador(string nome, EscolhaEnum escolha, int pontuacao) 
+        public Jogador(string nome) 
         {
             Nome = nome;
-            Escolha = escolha;
-            Pontuacao = pontuacao;
+            
         }
 
         public int Jogar()

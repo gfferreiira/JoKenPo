@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\WellGui\PM\Jokenpo\Jokenpo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-21T01:35:35.659</Modified>
+      <Modified>2024-05-28T00:33:26.546</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\WellGui\PM\Jokenpo\Jokenpo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-21T01:34:12.363</Modified>
+      <Modified>2024-05-28T00:32:05.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WellGui\PM\Jokenpo\Jokenpo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Jokenpo.runtimeconfig.json">
       <PackagePath>Jokenpo.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WellGui\PM\Jokenpo\Jokenpo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Jokenpo.dll">
       <PackagePath>Jokenpo.dll</PackagePath>
-      <Modified>2024-05-21T01:35:35.362</Modified>
+      <Modified>2024-05-28T00:33:26.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WellGui\PM\Jokenpo\Jokenpo\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Jokenpo.exe</PackagePath>
-      <Modified>2024-05-21T01:35:35.377</Modified>
+      <Modified>2024-05-28T00:33:26.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WellGui\PM\Jokenpo\Jokenpo\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
